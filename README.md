@@ -1,7 +1,7 @@
 # Bajaj_Finserv_Health_Assignment
 Design and develop a RESTful API using Node.js and Express that processes a given array of mixed data and responds with structured information based on the content. This includes sorting elements into categories (even, odd, alphabet, special characters), performing transformations (uppercase, reversed alternating caps), and returning metadata like sum and concatenated string.
 
-Note: This API is hosted on a free Render service. If it hasn’t been used for a while, the first request may take 1 and 2 minutes to respond because Render puts free services to sleep when they’re idle. It wakes them up when a new request comes in.
+Note: This API is hosted on a free Render service. If it hasn’t been used for a while, the first request may take 1 or 2 minutes to respond because Render puts free services to sleep when they’re idle. It wakes them up when a new request comes in.
 ## Stack
 
 - Node.js

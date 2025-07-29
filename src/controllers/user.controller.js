@@ -3,7 +3,7 @@ import { USER_DETAILS } from "../constant.js";
 
 const getUserDetails = (req,res) => {
     const { data } = req.body;
-    if(!data || data.length === 0 || !Array.isArray(data)) {
+    if(!Array.isArray(data)) {
         return res.status(400).json({ is_success: false, message: "Invalid input format" });
     }
 
